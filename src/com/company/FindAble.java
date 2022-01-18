@@ -4,9 +4,9 @@ import java.util.List;
 
 public interface FindAble {
 
-    void findMoviesByActor(List<Movies> movies);
+    void findMoviesByActor(List<Movies> movies,String actor);
 
-    void findMoviesByDirector(List<Movies> movies);
+    void findMoviesByDirector(List<Movies> movies,String director);
 
     void findMoviesByYear(List<Movies> movies, int name);
 
